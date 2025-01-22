@@ -16,7 +16,7 @@
 ![дима проект](https://github.com/user-attachments/assets/cd6d5193-1763-4ae9-b262-ff0cf7c67344)
 
 
-состояне:
+состояние:
 ждёт
 работа
 выиграл

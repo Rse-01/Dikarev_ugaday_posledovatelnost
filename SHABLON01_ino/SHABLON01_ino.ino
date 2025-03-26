@@ -6,14 +6,14 @@
 //long - для всего
 //------setup - Название
 //------() - круглые скобки (SHIFT+9, SHIFT+0) настройки
-//------{} - фигурные скобки (SHIFT+Х, SHIFT+Ъ) Начало и конец
+//------{} - фигурные скобки (SHIFT+Х, SHIFT+Ъ) Начало и конец)
 //Сложных приказов
 const byte dynPin = 2;
 //-------------------
 #define BUTTON_PIN 7
 int lastButtonState; [2](https://arduinogetstarted.com/faq/arduino-how-to-detect-button-press-event)
 //----------------------------------------
-
+//
 //способности:
 //включить пиксель на матрице
 void pix() {
@@ -50,15 +50,26 @@ void res() {
 
 }
 void setup() {
-  pinMode(dynPin, OUTPUT);  // настраиваем контакт №2 на выход [3](https://robotclass.ru/tutorials/arduino-speaker/)
-}
+  pinMode(dynPin, OUTPUT);  // настраиваем контакт №2 на выход [3](https://robotclass.ru/tutorials/arduino-speaker/
+
 Serial.begin(9600);
     pinMode(BUTTON_PIN, INPUT_PULLUP);  // включаем внутренний подтягивающий резистор
     lastButtonState = digitalRead(BUTTON_PIN);
+
+   int s=0;
 }
 
 }
 
 void loop() {
-  
+//триггеры
+
+//------------
+//состояния
+  //ждать
+  if (s==1){
+    
+  }
+//------------
+
 }
